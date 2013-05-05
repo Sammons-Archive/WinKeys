@@ -19,6 +19,7 @@ HotkeyManager hotkeyManager;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	ShowWindow( GetConsoleWindow(), SW_HIDE );
 	hotkeyManager.RegisterHotKeys();
 
 	MSG msg;
