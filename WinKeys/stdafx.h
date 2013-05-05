@@ -9,7 +9,9 @@
 
 #include <stdio.h>
 #include <tchar.h>
-
+#define WIN32_MEAN_AND_LEAN
+#include <Windows.h>
+#include <vector>
 
 
 // TODO: reference additional headers your program requires here
